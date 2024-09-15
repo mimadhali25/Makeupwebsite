@@ -1,0 +1,136 @@
+body {
+    margin: 0 auto;
+    background-color: #D3E788;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    background-color: #71881B;
+    border-radius: 5px;
+    color: #D3E788;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-transform: capitalize;
+    border: 2px solid black;
+    text-shadow: 0 0 3px #D3E788;
+}
+
+.nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #B3D733;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav:hover {
+    border: 2px solid #1B3409;
+    text-decoration: underline;
+    cursor: alias;
+}
+
+.first, .second, .third, .fourth {
+    overflow: auto;
+    padding: 20px;
+}
+
+#bridal, #reception, #birthday, #kolka {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    background-color: #375F1B;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.first img {
+    float: left;
+}
+
+.second img {
+    float: right;
+}
+
+.third img {
+    float: left;
+}
+
+.fourth img {
+    float: right;
+}
+
+.bridalpara, .receptionpara, .birthdaypara, .kolkapara {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2B3409;
+    font-weight: 700;
+    word-spacing: 10px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0 20px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #EBF7E3;
+}
+
+/* Media Queries for responsiveness */
+@media (min-width: 768px) {
+    #bridal, #reception, #birthday, #kolka {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .first, .second, .third, .fourth {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav {
+        font-size: 1.2vw;
+        padding: 15px;
+    }
+
+    #bridal, #reception, #birthday, #kolka {
+        max-width: 30%;
+    }
+
+    .first, .second, .third, .fourth {
+        padding: 30px;
+    }
+}
+.book
+{
+    background-color: #1B3409;
+    color: #9BD770;
+    padding:1em;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.book:hover{
+    text-decoration: underline;
+    cursor: alias;
+}
+.end 
+{
+    padding: 3em;
+    background-color: #1B3409;
+    text-align: end;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #71881B;
+}
